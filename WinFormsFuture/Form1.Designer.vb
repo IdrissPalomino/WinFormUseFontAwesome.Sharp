@@ -62,7 +62,7 @@ Partial Class Form1
         PanelMenu.Location = New Point(0, 0)
         PanelMenu.Margin = New Padding(4, 3, 4, 3)
         PanelMenu.Name = "PanelMenu"
-        PanelMenu.Size = New Size(257, 601)
+        PanelMenu.Size = New Size(257, 663)
         PanelMenu.TabIndex = 2
         ' 
         ' btnSetting
@@ -230,7 +230,7 @@ Partial Class Form1
         PanelTitleBar.Location = New Point(257, 0)
         PanelTitleBar.Margin = New Padding(4, 3, 4, 3)
         PanelTitleBar.Name = "PanelTitleBar"
-        PanelTitleBar.Size = New Size(740, 87)
+        PanelTitleBar.Size = New Size(823, 87)
         PanelTitleBar.TabIndex = 3
         ' 
         ' btnMinimize
@@ -239,7 +239,7 @@ Partial Class Form1
         btnMinimize.FlatAppearance.BorderSize = 0
         btnMinimize.FlatStyle = FlatStyle.Flat
         btnMinimize.Image = My.Resources.Resources.minimize_icon_24
-        btnMinimize.Location = New Point(651, 0)
+        btnMinimize.Location = New Point(734, 0)
         btnMinimize.Margin = New Padding(4, 3, 4, 3)
         btnMinimize.Name = "btnMinimize"
         btnMinimize.Size = New Size(30, 30)
@@ -252,7 +252,7 @@ Partial Class Form1
         btnMaximize.FlatAppearance.BorderSize = 0
         btnMaximize.FlatStyle = FlatStyle.Flat
         btnMaximize.Image = My.Resources.Resources.icon_maximize_24
-        btnMaximize.Location = New Point(680, 0)
+        btnMaximize.Location = New Point(763, 0)
         btnMaximize.Margin = New Padding(4, 3, 4, 3)
         btnMaximize.Name = "btnMaximize"
         btnMaximize.Size = New Size(30, 30)
@@ -265,7 +265,7 @@ Partial Class Form1
         btnExit.FlatAppearance.BorderSize = 0
         btnExit.FlatStyle = FlatStyle.Flat
         btnExit.Image = My.Resources.Resources.exit_icon_24
-        btnExit.Location = New Point(709, 0)
+        btnExit.Location = New Point(792, 0)
         btnExit.Margin = New Padding(4, 3, 4, 3)
         btnExit.Name = "btnExit"
         btnExit.Size = New Size(30, 30)
@@ -306,14 +306,14 @@ Partial Class Form1
         PanelDesktop.Location = New Point(257, 87)
         PanelDesktop.Margin = New Padding(4, 3, 4, 3)
         PanelDesktop.Name = "PanelDesktop"
-        PanelDesktop.Size = New Size(740, 514)
+        PanelDesktop.Size = New Size(823, 576)
         PanelDesktop.TabIndex = 4
         ' 
         ' PictureBox1
         ' 
         PictureBox1.Anchor = AnchorStyles.None
         PictureBox1.Image = My.Resources.Resources.logo_Paltarumi
-        PictureBox1.Location = New Point(140, 125)
+        PictureBox1.Location = New Point(191, 143)
         PictureBox1.Margin = New Padding(4, 3, 4, 3)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(495, 284)
@@ -325,7 +325,7 @@ Partial Class Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(997, 601)
+        ClientSize = New Size(1080, 663)
         Controls.Add(PanelDesktop)
         Controls.Add(PanelTitleBar)
         Controls.Add(PanelMenu)
